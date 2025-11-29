@@ -1,0 +1,16 @@
+people = ["Alice", "Bob", "Charlie", "David"]
+print("Dear {0}, you are cordially invited to dinner.".format(people[0]))
+print("Dear {0}, you are cordially invited to dinner.".format(people[1]))
+print("Dear {0}, you are cordially invited to dinner.".format(people[2]))
+print("Dear all, we have found a bigger dinner table, so more guests are invited!")
+people.insert(0, "Eve") # beginning position
+people.insert(2, "Frank") # middle position
+people.append("Grace") # end position
+
+print("Dear {0}, you are cordially invited to dinner.".format(people[0]))
+print("Dear {0}, you are cordially invited to dinner.".format(people[1]))
+print("Dear {0}, you are cordially invited to dinner.".format(people[2]))
+print("Dear {0}, you are cordially invited to dinner.".format(people[3]))
+print("Dear {0}, you are cordially invited to dinner.".format(people[4]))
+print("Dear {0}, you are cordially invited to dinner.".format(people[5]))
+print("Dear {0}, you are cordially invited to dinner.".format(people[6]))
